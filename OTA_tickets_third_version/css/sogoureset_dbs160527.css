@@ -1,0 +1,62 @@
+html {
+	color: #333;
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizelegibility;
+	font: 100% arial, sans-serif;
+}
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+input[type="search"] {
+	-webkit-appearance: none;
+	box-sizing: content-box;
+}
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+input::-ms-clear { display: none; }
+textarea {
+	overflow: auto;
+}
+table {
+	border-collapse: collapse;
+}
+caption, th {
+	text-align: left;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+iframe {
+	display: block;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	outline: none;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+em{font-style: normal;color: #cc0000}
+a em{text-decoration: none;}
+a:hover em{text-decoration: underline;}

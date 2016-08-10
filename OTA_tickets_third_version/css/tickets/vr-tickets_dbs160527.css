@@ -1,0 +1,635 @@
+/*.vrwrap {
+	margin-bottom: 12px;
+	min-height: 50px;
+	width: 550px;
+	margin-left: 100px;
+}*/
+
+
+
+
+
+
+.vr-ota-tickets160427_dbs2016 {
+	width: 550px;
+	font-size: 13px;
+	background-color: #fff;
+	margin-bottom:12px;
+	_margin-bottom:5px;
+	*margin-bottom:5px;
+}
+.vr-ota-tickets160427_dbs2016 a {
+    color: #00c;
+    cursor: pointer;
+    outline: none;
+}
+.vr-ota-tickets160427_dbs2016 .vrTitle {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 26px;
+	
+}
+.vr-ota-tickets160427_dbs2016 .vrTitle .aMore {
+	display: none;
+}
+.vr-ota-tickets160427_dbs2016 .vrTitle a:visited {
+	color: #741274
+}
+.vr-ota-tickets160427_dbs2016 .vrTitle a em {
+	text-decoration: underline;
+}
+.vr-ota-tickets160427_dbs2016 .vr-box-border {
+	border: 1px solid #ededed;
+	min-height: 20px;
+	margin: 5px 0;
+	padding:10px 8px;
+	padding-bottom: 0;
+}
+.vr-ota-tickets160427_dbs2016 .vr-box-nop {
+	padding: 0;
+}
+.vr-ota-tickets160427_dbs2016 .vr-box-nop .tab-vr-lis_dbs2016 {
+	margin:10px 8px 0;
+}
+.vr-ota-tickets160427_dbs2016 .vr-box-nop .content {
+	margin:0 8px;
+}
+.vr-ota-tickets160427_dbs2016 .vr-box-border .tb-wrap {
+	padding: 5px 10px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.vr-ota-tickets160427_dbs2016 .vrTitle a {
+	display: inline-block;
+	*width: 535px;
+
+}
+/* TAB 取自大搜规范 */
+.tab-vr-tit_dbs2016 {
+	height: 32px;
+	background: #f5f5f5 url(https://galaxy.sogoucdn.com/galaxy/skin_x_dbs160713.gif) repeat-x 0 -11px;
+	zoom: 1;
+}
+.tab-vr-tit_dbs2016:after, .tab-vr-lis_dbs2016:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+.tab-vr-lis_dbs2016 {
+	zoom: 1;
+}
+.tab-vr-lis_dbs2016 li {
+	float: left;
+}
+.tab-vr-lis_dbs2016 a {
+	height: 30px;
+	line-height: 30px;
+	padding: 1px 22px 0;
+	/**padding: 1px 6px 0;*/
+	/*_padding: 1px 5px 0;*/
+	font-size: 13px;
+	letter-spacing: normal;
+	text-decoration: none;
+	border-bottom: 1px solid #e4e4e4;
+	background: #f5f5f5;
+	display: inline-block;
+	color: #666;
+	text-align: center;
+}
+.tab-vr-lis_dbs2016 .cur a {
+	border: 1px solid #e4e4e4;
+	padding: 0 22px;
+	border-bottom: 1px solid #FFF;
+	background: #FFF;
+	font-weight: bold;
+	color: #333;
+	cursor: default;
+}
+.vr-ota-tickets160427_dbs2016 .aggrBox .tab-vr-tit_dbs2016 {
+	background-color: #fff;
+}
+.vr-ota-tickets160427_dbs2016 .aggrBox .tab-vr-lis_dbs2016 a {
+	margin-right: 5px;
+}
+.vr-ota-tickets160427_dbs2016 .tab-vr-lis_dbs2016 a:visited {
+	color: #666;
+}
+.vr-ota-tickets160427_dbs2016 .tab-vr-lis_dbs2016 .cur a:visited {
+	color: #333;
+}
+.vr-ota-tickets160427_dbs2016 .tab-tit-right {
+	float: right;
+}
+
+/* main content */
+.vr-ota-tickets160427_dbs2016 b,
+.vr-ota-tickets160427_dbs2016 i,
+.vr-ota-tickets160427_dbs2016 em {
+	font-style: normal;
+	font-weight: normal;
+}
+.vr-ota-tickets160427_dbs2016 .mr10 {
+	margin-right: 10px;
+}
+.vr-ota-tickets160427_dbs2016 .btn {
+	display: inline-block;
+	vertical-align: middle;
+	height: 28px;
+	line-height: 29px;
+	padding:0 12px;
+	margin-left: 5px;
+	*margin-left: 0px;
+	border: 1px solid #3386ea;
+	border-radius: 2px;
+	background-color: #5d9afc;
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+	text-decoration: none;
+
+
+
+}
+.vr-ota-tickets160427_dbs2016 input {
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-size: 13px;
+	background-color: #fff ;
+}
+.vr-ota-tickets160427_dbs2016 .input-wrap {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+    border:1px solid #ddd;
+    vertical-align: middle;
+    background-color: #fff;
+}
+.vr-ota-tickets160427_dbs2016 .input-wrap .input {
+	padding:0 10px;
+	width: 115px;
+	height: 26px;
+	line-height: 26px;
+}
+.vr-ota-tickets160427_dbs2016 .ck-rd {
+	display: inline-block;
+	margin-right: 10px;
+	_margin-right:0;
+	font-size: 13px;
+	vertical-align: middle;
+}
+.vr-ota-tickets160427_dbs2016 .ck-rd input {
+	vertical-align: middle;
+}
+.vr-ota-tickets160427_dbs2016 input + label {
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.vr-ota-tickets160427_dbs2016 .tab-vr-tit_dbs2016 a.special {
+	color: #00c;
+}
+.vr-ota-tickets160427_dbs2016 input:focus,
+.vr-ota-tickets160427_dbs2016 select:focus,
+.vr-ota-tickets160427_dbs2016 textarea:focus,
+.vr-ota-tickets160427_dbs2016 button:focus {
+	outline: none;
+}
+.vr-ota-tickets160427_dbs2016 .line-solid {
+	position: relative;
+	left: -11px;
+	width: 550px;
+	height: 1px;
+	background-color: #ededed;
+	padding: 0;
+	font-size: 0;
+	border: 0;
+}
+.vr-ota-tickets160427_dbs2016 .content {
+	padding-top: 8px;
+}
+.vr-ota-tickets160427_dbs2016 .content li {
+	padding-bottom: 8px;
+	font-size: 0;
+}
+.vr-ota-tickets160427_dbs2016 .content .fs-normal {
+	font-size: 13px;
+	vertical-align: middle;
+}
+.vr-ota-tickets160427_dbs2016 .abroad .input-wrap {
+	width: 125px;
+	margin-right: 5px;
+}
+.vr-ota-tickets160427_dbs2016 .abroad .input {
+	/* width: 75px; */
+	width: 62px;
+	padding: 0;
+}
+.vr-ota-tickets160427_dbs2016 .input-wrap .font-box,
+.vr-ota-tickets160427_dbs2016 .input-wrap .input,
+.vr-ota-tickets160427_dbs2016 .input-wrap a.date-img,
+.vr-ota-tickets160427_dbs2016 a.mid {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 13px;
+}
+.vr-ota-tickets160427_dbs2016 .font-box {
+	width: 32px;
+	height: 26px;
+	line-height: 27px;
+	color: #999;
+	padding-left: 6px;
+}
+.vr-ota-tickets160427_dbs2016 .date-img {
+	position: absolute;
+	height: 28px;
+	width: 18px;
+	top: 3px;
+	*top:5px;
+	_top:6px;
+
+	right: 0;
+	cursor: pointer;
+	text-align: right;
+	padding-right: 5px;
+	*padding-right: 2px;
+
+
+    _height: 15px;
+	_width: 14px;
+	_margin-right: 1px;
+	_top:6px;
+
+
+	/* z-index: 30; */
+}
+/* 机票-带具体信息 */
+.vr-ota-tickets160427_dbs2016 .arrange li {
+	padding:8px;
+	*padding: 8px  2px;
+	border-top:1px solid #ededed;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .time-box,
+.vr-ota-tickets160427_dbs2016 .arrange .long,
+.vr-ota-tickets160427_dbs2016 .arrange .company {
+	float: left;
+	display: inline;
+}
+.vr-ota-tickets160427_dbs2016 .time-box span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #333;
+	font-size: 16px;
+}
+.vr-ota-tickets160427_dbs2016 .time-box .duration {
+	text-align: center;
+}
+.vr-ota-tickets160427_dbs2016 .time-box .duration em {
+	display: inline-block;
+	width: 40px;
+	height: 10px;
+	 margin-left: 10px;
+	margin-right: 10px; 
+	background: url(https://galaxy.sogoucdn.com/galaxy/duration_dbs160713.png) no-repeat right 0;
+	/* background-position:center */;
+}
+.vr-ota-tickets160427_dbs2016 .time-box .airport {
+	color: #999;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .long {
+	color: #999;
+	margin:0 5px;
+	line-height: 34px;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .company {
+	line-height: 34px;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .company img,
+.vr-ota-tickets160427_dbs2016 .arrange .company span {
+	vertical-align: middle;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .company span {
+	width: 75px;
+	display: inline-block;
+	margin-top: 1px;
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 5px;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .price {
+	float: left;
+	display: inline;
+	line-height: 34px;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .price .text-orange {
+	font-size: 16px;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .price .text-gray {
+	font-size: 12px;
+	margin-left: 5px;
+	*margin-left: 3px;
+}
+.vr-ota-tickets160427_dbs2016 .arrange .btn {
+	float: right;
+
+	display: inline;
+	*padding:0px 2px;
+}
+.vr-ota-tickets160427_dbs2016 .vih {
+	visibility: hidden;
+}
+.vr-ota-tickets160427_dbs2016 .input-disabled {
+	background-color: #f2f2f2;
+}
+.vr-ota-tickets160427_dbs2016 .input-disabled input {
+	background-color: #f2f2f2;
+	cursor: default;
+}
+/* 火车票-带具体信息 */
+.vr-ota-tickets160427_dbs2016 .train .font-box {
+	width: 20px;
+}
+.vr-ota-tickets160427_dbs2016 .train .input-wrap {
+	width: 127px;
+	_width:125px;
+	margin-right: 5px;
+}
+.vr-ota-tickets160427_dbs2016 .train .input {
+	width: 67px;
+	padding-left: 0;
+}
+.vr-ota-tickets160427_dbs2016 .train .input-date {
+	width: 94px;
+	padding-left: 5px;
+}
+.vr-ota-tickets160427_dbs2016 .train .btn {
+	margin: 0;
+	*margin-left: -1px;
+}
+/* 带色文字 */
+.vr-ota-tickets160427_dbs2016 .text-gray {
+	color: #929292!important;
+}
+.vr-ota-tickets160427_dbs2016 .text-orange {
+	color: #ff6949!important;
+}
+/* 引自 商业 biz-basis.css */
+.vr-ota-tickets160427_dbs2016 .biz_tit_ico {
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left 4px;
+}
+.vr-ota-tickets160427_dbs2016 .biz_fb {
+	line-height: 20px;
+	color: #666;
+}
+.vr-ota-tickets160427_dbs2016 cite,
+.vr-ota-tickets160427_dbs2016 cite a {
+	color: #008000;
+	font-style: normal;
+}
+/* 引自 商业 END */
+
+/* 表格数据统计 以大搜规范为基础 */
+.vr-ota-tickets160427_dbs2016 .modules-statistics table {
+	width: 100%;
+	border-top: 1px solid #f2f2f2;
+	margin: 5px 0 5px;
+	table-layout: fixed
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics td a {
+	text-decoration: none;
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics td img {
+	vertical-align: top
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics td a:hover {
+	text-decoration: none;
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics table th,
+.vr-ota-tickets160427_dbs2016 .modules-statistics table td {
+	border-top: 1px solid #f2f2f2;
+	text-align: left;
+	padding: 9px 0 9px 9px;
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics td a .ico-new {
+	margin-left: 5px;
+	position: relative;
+	top: 1px
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics table th {
+	font-weight: normal;
+	color: #999;
+}
+.vr-ota-tickets160427_dbs2016 .tab-vr-tit-b6 {
+	margin-bottom: -6px;
+	position: relative;
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics table td {
+	/* padding-right: 8px; */
+}
+.vr-ota-tickets160427_dbs2016 .over-txt {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+	margin-right: 5px;
+	width: 100%;
+	cursor: default;
+}
+.vr-ota-tickets160427_dbs2016 .over-txt a {
+
+	cursor: default;
+}
+.vr-ota-tickets160427_dbs2016 .modules-statistics .btn {
+	margin: 0;
+	/* padding: 0; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vr-ota-tickets160427_dbs2016 .modules-statistics tbody text-orange {
+	*padding-right: 6px;
+	_padding-right: 2px;
+}
+
+
+ .vr-ota-tickets160427_dbs2016    .biz_fb {
+   
+   *width: 220px;
+   *padding-right: 200px;
+ }
+ .vr-ota-tickets160427_dbs2016 .biz_effect{
+   *display: inline-block;
+   *margin-left: -75px;
+ }
+
+
+
+
+
+.vr-ota-tickets160427_dbs2016 .modules-statistics tbody td .btn{
+	*padding:0px 0px 0px 8px !important;
+	*width: 35px!important;
+}
+
+.vr-ota-tickets160427_dbs2016 .arrange .btn{
+ 
+ _padding:0px 6px;
+
+  }
+
+.vr-ota-tickets160427_dbs2016 .arrange .company span {
+	padding-left:5px; 
+}
+.vr-ota-tickets160427_dbs2016 .time-box .airport  label{
+	display: inline-block;
+	 width: 90px;
+	 *width: 88px;
+	/*height: 16px;
+	*height: 32px; */
+	text-align:center;
+	/* border: 1px solid red; */
+	
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+#chufa-date-dbs2016+a{
+
+    height: 15px;
+	width: 14px;
+	*margin-right: 1px;
+	*top:6px;
+
+}
+
+#huoche-date-dbs2016+a{
+	height: 15px;
+	width: 14px;
+	*margin-right: 1px;
+	*top:6px;
+
+}
+#jipiao_search_dbs2016{
+	*margin-left: 5px!important；
+	_margin-left:4px!important;
+	_margin-right:1px!important;
+	_padding:0px 8px;
+}
+
+	#huochepiao_search_dbs2016{
+		width:70px ;
+		_width:77px;
+		*margin-left: 4px;
+		_margin-left: 2px;
+		padding:0px 7px 0px  7px;
+		_padding:0px 4px 0px  5px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+/* 表格数据统计 end */
+
+/* moreLink 以大搜规范为基础 */
+.vr-ota-tickets160427_dbs2016 .moreLink {
+	overflow: hidden;
+	line-height: 22px;
+	padding-left: 8px;
+}
+.vr-ota-tickets160427_dbs2016 .moreLink a {
+	color: #00c;
+	text-decoration: none;
+	margin-right: 8px;
+	*margin-right: 7px;
+	display: inline-block;
+}
+.vr-ota-tickets160427_dbs2016 .moreLink a:hover {
+	text-decoration: underline;
+}
+/* end moreLink */
+
+/* ota-PPIM样式 2016.05.18 */
+.ota-ppim-tickets160518_dbs2016 {
+	background-color: #f5f5f5;
+		margin-bottom:0px;
+	_margin-bottom:0px;
+	*margin-bottom:0px;
+}
+.ota-ppim-tickets160518_dbs2016 .tab-vr-tit_dbs2016 {
+	background-color: #eaeaea;
+}
+.ota-ppim-tickets160518_dbs2016 .tab-vr-lis_dbs2016 a {
+	border-color: #d9d9d9;
+	border-bottom: 1px solid #dfe1e4;
+	background-color: #eaeaea;
+}
+.ota-ppim-tickets160518_dbs2016 .tab-vr-lis_dbs2016 .cur a {
+	background-color: #f5f5f5;
+	border-bottom-color: #f5f5f5;
+}
+.ota-ppim-tickets160518_dbs2016 .vr-box-border {
+	border: 1px solid #dfe1e4;
+}
+.ota-ppim-tickets160518_dbs2016 .arrange li {
+    border-top: 1px solid #e1e1e1;
+}
+.ota-ppim-tickets160518_dbs2016 .modules-statistics table th {
+	background-color: #efefef;
+	border-top:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+}
+.ota-ppim-tickets160518_dbs2016 .modules-statistics table td {
+    border-top: 1px solid #eaeaea;
+}
+
+
+
+
+ .remen-city-dbs2016 {width: 241px;position: absolute;z-index:10;border: 1px solid #dfdfdf;background-color: #ffffff;padding:8px;}
+ .remen-title-dbs2016 {font-weight: bold;font-size: 12px;color: #d23b1c;height: 32px;border-bottom: 2px solid #dfdfdf;line-height: 32px;}
+ .remen-title-dbs2016 span {color: #d23b1c;display: inline-block;height: 32px;border-bottom: 2px solid #cf2e0d;}
+ .remen-close-btn-dbs2016 {width: 12px;height: 12px;background: url(https://galaxy.sogoucdn.com/galaxy/Close_icon_dbs160713.png) no-repeat;display: block;float: right;margin-top: 10px;cursor: pointer;}
+ .remen-list-dbs2016 {width: 100%}
+ .remen-list-dbs2016 li {float: left;width: 60px;height: 30px;line-height: 30px;}
+ .remen-list-dbs2016 li a {color: #000;font-size: 12px;cursor: pointer;}
+ .remen-list-dbs2016 li a:hover,.remen-list-dbs2016 li a:active {color:blue;text-decoration: underline;}
+ .remen-xiala-btn-dbs2016 {background-color:#d2ba96;z-index: 5; position: absolute;/*border-color:#ae9b7b #d2ba96 #d2ba96 #d2ba96; border-style:solid; border-width:1px;*/margin-top: 1px;}
+ .remen-xiala-btn-in-dbs2016 {background:url(https://galaxy.sogoucdn.com/galaxy/icon1_dbs160713.png
+) center no-repeat;width: 100%;height: 100%;}
+ .banner_box-dbs2016{ clear:both; padding-top:20px;}
+ .banner_box-dbs2016 img{ display:block; height:120px; width:1000px;}

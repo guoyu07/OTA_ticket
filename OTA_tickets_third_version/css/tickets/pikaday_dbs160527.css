@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+/*!
+ * Pikaday
+ * Copyright © 2014 David Bushell | BSD & MIT license | http://dbushell.com/
+ */
+
+.pika-single_dbs2016 {
+    z-index: 9999;
+    display: block;
+    position: relative;
+    color: #333;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+clear child float (pika-lendar), using the famous micro clearfix hack
+http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.pika-single_dbs2016:before,
+.pika-single_dbs2016:after {
+    content: " ";
+    display: table;
+}
+.pika-single_dbs2016:after { clear: both }
+.pika-single_dbs2016 { *zoom: 1 }
+
+.pika-single_dbs2016.is-hidden_dbs2016 {
+    display: none;
+}
+
+.pika-single_dbs2016.is-bound_dbs2016 {
+    position: absolute;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,.5);
+}
+
+.pika-lendar_dbs2016 {
+    float: left;
+    width: 240px;
+    margin: 8px;
+}
+
+.pika-title_dbs2016 {
+    position: relative;
+    text-align: center;
+}
+
+.pika-label_dbs2016 {
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    z-index: 9999;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px 3px;
+    _padding: 7px 3px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: #fff;
+
+
+}
+.pika-title_dbs2016 select {
+    cursor: pointer;
+    position: absolute;
+    z-index: 9998;
+    margin: 0;
+    left: 0;
+    top: 5px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+}
+
+.pika-prev_dbs2016,
+.pika-next_dbs2016 {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    border: 0;
+    padding: 0;
+    width: 20px;
+    height: 30px;
+    /* hide text using text-indent trick, using width value (it's enough) */
+    text-indent: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+     opacity: .5; 
+    *position: absolute;
+    *top: 0;
+}
+
+.pika-prev_dbs2016:hover,
+.pika-next_dbs2016:hover {
+    opacity: 1;
+}
+
+.pika-prev_dbs2016,
+.is-rtl_dbs2016 .pika-next_dbs2016 {
+    float: left; 
+    _background-size:15px 20px; 
+     background-image: url('http://data.galaxy.brand.sogou.com/frontdata/upload/previous_dbs2016.png');
+     *left:0;
+     _left:-91px;
+}
+
+.pika-next_dbs2016,
+.is-rtl_dbs2016 .pika-prev_dbs2016 {
+    float: right;
+   background-image: url('http://data.galaxy.brand.sogou.com/frontdata/upload/next_dbs2016.png'); 
+    *right: 0;
+    _right: -8px;
+}
+
+.pika-prev__dbs2016.is-disabled_dbs2016,
+.pika-next_dbs2016.is-disabled_dbs2016 {
+    cursor: pointer;
+    opacity: .2;
+
+}
+
+.pika-select_dbs2016 {
+    display: inline-block;
+    *display: inline;
+
+}
+
+.pika-table_dbs2016 {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+
+}
+
+.pika-table_dbs2016 th,
+.pika-table_dbs2016 td {
+    width: 14.285714285714286%;
+    padding: 0;
+}
+
+.pika-table_dbs2016 th {
+    color: #999;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pika-button_dbs2016 {
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    color: #666;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    background: #f5f5f5;
+}
+
+.pika-week_dbs2016 {
+    font-size: 11px;
+    color: #999;
+}
+
+.is-today_dbs2016 .pika-button_dbs2016 {
+    color: #33aaff;
+    font-weight: bold;
+
+}
+
+.is-selected_dbs2016 .pika-button_dbs2016 {
+    color: #fff;
+    font-weight: bold;
+    background: #33aaff;
+    box-shadow: inset 0 1px 3px #178fe5;
+    border-radius: 3px;
+
+
+}
+
+.is-inrange_dbs2016 .pika-button_dbs2016 {
+    background: #D5E9F7;
+}
+
+.is-startrange_dbs2016 .pika-button_dbs2016 {
+    color: #fff;
+    background: #6CB31D;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.is-endrange_dbs2016 .pika-button_dbs2016 {
+    color: #fff;
+    background: #33aaff;
+    box-shadow: none;
+    border-radius: 3px;
+
+}
+
+.is-disabled_dbs2016 .pika-button_dbs2016,
+.is-outside-current-month_dbs2016 .pika-button_dbs2016 {
+    pointer-events: none;
+    cursor: default;
+    color: #999;
+    opacity: .3;
+}
+
+.pika-button_dbs2016:hover {
+    color: #fff;
+    background: #ff8000;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+/* styling for abbr */
+.pika-table_dbs2016 abbr {
+    border-bottom: none;
+    cursor: help;
+}
+
